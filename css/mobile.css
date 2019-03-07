@@ -96,6 +96,9 @@ nav.social ul li {
 .center {
   text-align: center;
 }
+.right {
+  text-align: right;
+}
 .deco.inline {
   vertical-align: middle;
   margin: 0px 10px;
@@ -164,7 +167,7 @@ label.menu-btn {
 .page-content > .articles {
   flex: 1;
 }
-.page-content > .articles article {
+.page-content > .articles > * {
   margin: 25px 25px 25px 0;
 }
 .page-content > .articles article > .header {
@@ -300,7 +303,85 @@ article.card > .footer > ul > li:not(:last-child) {
 .related > div.center img:last-child {
   margin-right: 0px;
 }
-
+.bg1 {
+  background-image: url("../img/blockquote1.jpg");
+}
+.bg2 {
+  background-image: url("../img/post3.jpeg");
+}
+.bg3 {
+  background-image: url("../img/post4.jpeg");
+}
+.blockquote {
+  padding: 45px 20px;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.9);
+}
+.blockquote > .icon {
+  display: inline-block;
+  padding: 9px 11px;
+  border: 2px solid #79936c;
+  color: #79936c;
+  transform: rotate(180deg);
+  font-size: 18px;
+  margin: 25px 0px;
+}
+.blockquote > .quote {
+  font-style: italic;
+  font-size: 20px;
+  -webkit-text-stroke: 0.2px;
+}
+.blockquote .deco {
+  padding: 25px 0px;
+}
+.blockquote .author {
+  -webkit-text-stroke: 0.6px;
+  font-size: 16px;
+  padding: 0px 0px 25px 0px;
+}
+.header.twitter {
+  background-size: cover;
+  background-position: center center;
+  padding: 90px 20px;
+}
+.header.twitter > * {
+  max-width: 100%;
+  margin: auto;
+}
+.light {
+  color: #fff;
+}
+.header.link {
+  padding: 70px 0px;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
+.header.link > .icon {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+.header.link > .heading {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 0px 20px 0px;
+}
+.header.link > .link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  padding: 20px;
+  -webkit-text-stroke: 0.6px;
+}
+.ad img {
+  width: 100%;
+}
+.icon-quote {
+  display: inline-block;
+  transform: translate(0.5px, 2px);
+}
 /*selectors ONLY on mobile*/
 @media only screen and (max-width: 859px) {
   .hide-sm {
