@@ -46,8 +46,19 @@
       <img src="assets/logo.jpg" class="header-image" />
     </header>
     <div class="divider"></div>
-    <nav class="navbar flex row">
-      <ul class="flex row">
+    <nav class="navbar flex column row-lg">
+      <div class="menu-toggle-container hide-lg flex row reverse">
+        <button class="menu-btn">
+          <i class="icons icon-search"></i>
+        </button>
+        <label class="menu-btn" for="menu-checkbox">
+          <i class="bar"></i>
+          <i class="bar"></i>
+          <i class="bar"></i>
+        </label>
+      </div>
+      <input type="checkbox" class="hide" id="menu-checkbox" />
+      <ul class="flex menu-toggle column row-lg">
         <li>
           <a href="#" class="active">Home</a>
         </li>
@@ -69,13 +80,205 @@
         <li>
           <a href="#">Contact</a>
         </li>
-        <li class="search">
+        <li class="search-button hide-sm">
           <i class="icons icon-search"></i>
         </li>
       </ul>
+      <div class="divider"></div>
     </nav>
-    <div class="articles"></div>
-    <aside></aside>
+    <div class="container page-content flex row">
+      <div class="articles flex column">
+        <article class="card">
+          <div class="header image">
+            <img src="img/post1.jpg" />
+          </div>
+          <div class="body">
+            <div class="category">Fashion</div>
+            <div class="heading">
+              Here each week my friends you to get a smile
+            </div>
+            <div class="subheading">
+              Posted by Admin
+              <img src="assets/deco3.jpg" class="deco inline" />
+              Jan 08, 2015
+            </div>
+            <div class="deco">
+              <img src="assets/deco2.jpg" />
+            </div>
+            <div class="preview">
+              Here he comes Here comes Speed Racer. He's a demon on wheels.
+              Movin' on up to the east side. We finally got a piece of the pie.
+              Why do we always come here. I guess well never know. Its like a
+              kind of torture to have to watch the show.
+            </div>
+            <div class="continue">
+              <button class="btn filled">Continue reading</button>
+            </div>
+          </div>
+          <div class="footer flex row">
+            <ul class="flex row">
+              <li>
+                <i class="icons icon-heart1"></i>
+                <span class="aditional-text">120</span>
+              </li>
+              <li>
+                <i class="icons icon-eye"></i>
+                <span class="aditional-text">150</span>
+              </li>
+              <li>
+                <i class="icons icon-share-2"></i>
+                <span class="aditional-text">35</span>
+              </li>
+              <li class="flex-right">
+                <i class="icons icon-comment-o"></i>
+                <span class="aditional-text">12 Comments</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="center related">
+          <div class="heading">Related Posts</div>
+          <div class="center flex row">
+            <img src="img/related1.jpg" alt="" />
+            <img src="img/related2.jpg" alt="" />
+            <img src="img/related3.jpg" alt="" />
+          </div>
+        </article>
+        <article class="card">
+          <div class="header image">
+            <img src="img/post2.jpg" />
+          </div>
+          <div class="body">
+            <div class="category">Travel</div>
+            <div class="heading">
+              Love Boat promises something everyone
+            </div>
+            <div class="subheading">
+              Posted by Admin
+              <img src="assets/deco3.jpg" class="deco inline" />
+              Jan 08, 2015
+            </div>
+            <div class="deco">
+              <img src="assets/deco2.jpg" />
+            </div>
+            <div class="preview">
+              So lets make the most of this beautiful day. Since we're together!
+              Why do we always come here? I guess well never know.Its like a
+              kind of torture to have to watch the show. Well we're movin' on up
+              to the east side to a deluxe apartament in the sky.
+            </div>
+            <div class="continue">
+              <button class="btn filled">Continue reading</button>
+            </div>
+          </div>
+          <div class="footer flex row">
+            <ul class="flex row">
+              <li>
+                <i class="icons icon-heart1"></i>
+                <span class="aditional-text">110</span>
+              </li>
+              <li>
+                <i class="icons icon-eye"></i>
+                <span class="aditional-text">70</span>
+              </li>
+              <li>
+                <i class="icons icon-share-2"></i>
+                <span class="aditional-text">20</span>
+              </li>
+              <li class="flex-right">
+                <i class="icons icon-comment-o"></i>
+                <span class="aditional-text">09 Comments</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="center related">
+          <div class="heading">Related Posts</div>
+          <div class="center flex row">
+            <img src="img/related4.jpg" alt="" />
+            <img src="img/related5.jpg" alt="" />
+            <img src="img/related6.jpg" alt="" />
+          </div>
+        </article>
+        <article class="card">
+          <div class="header video">
+            <iframe
+              src="https://player.vimeo.com/video/132471949"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="body">
+            <div class="category">Health</div>
+            <div class="heading">
+              Now were up in the big leagues our turn
+            </div>
+            <div class="subheading">
+              Posted by Admin
+              <img src="assets/deco3.jpg" class="deco inline" />
+              Jan 07, 2015
+            </div>
+            <div class="deco">
+              <img src="assets/deco2.jpg" />
+            </div>
+            <div class="preview">
+              You would see the biggest gift would be from me and the card
+              attached would say thank you for being a friend. Texas tea. So get
+              a witch's shawl on a broomstick you can crawl on. Were gonna pay a
+              call in the Addams Family.
+            </div>
+            <div class="continue">
+              <button class="btn filled">Continue reading</button>
+            </div>
+          </div>
+          <div class="footer flex row">
+            <ul class="flex row">
+              <li>
+                <i class="icons icon-heart1"></i>
+                <span class="aditional-text">90</span>
+              </li>
+              <li>
+                <i class="icons icon-eye"></i>
+                <span class="aditional-text">105</span>
+              </li>
+              <li>
+                <i class="icons icon-share-2"></i>
+                <span class="aditional-text">35</span>
+              </li>
+              <li class="flex-right">
+                <i class="icons icon-comment-o"></i>
+                <span class="aditional-text">19 Comments</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="center related">
+          <div class="heading">Related Posts</div>
+          <div class="center flex row">
+            <img src="img/related7.jpg" alt="" />
+            <img src="img/related8.jpg" alt="" />
+            <img src="img/related9.jpg" alt="" />
+          </div>
+        </article>
+        <article class="card">
+          <div class="header music">
+            <iframe
+              width="100%"
+              height="200"
+              scrolling="no"
+              frameborder="no"
+              allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/27613297&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            ></iframe>
+          </div>
+        </article>
+      </div>
+      <aside>
+        <section class="card">dsadasdasdasd</section>
+      </aside>
+    </div>
     <footer></footer>
   </body>
 </html>
