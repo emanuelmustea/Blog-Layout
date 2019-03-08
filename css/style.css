@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic:700|Nunito:400,400i|Open+Sans:300");
+@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic:700,400|Nunito:400,400i|Open+Sans:300");
 @import url("icons.css");
 @import url("mobile.css");
 @media only screen and (min-width: 860px) {
@@ -26,5 +26,54 @@
   }
   .hide-sm {
     display: initial;
+  }
+  .page-content > .articles > * {
+    margin: 25px 25px 25px 0;
+  }
+  .page-content > .articles > * {
+    margin: 25px 25px 25px 0;
+  }
+  .page-content > aside > section {
+    margin: 25px 0 50px 25px;
+  }
+  .page-content > aside {
+    width: 325px;
+  }
+  .related > div.center {
+    margin-right: -20px;
+  }
+  .related > div.center > div {
+    float: left;
+    width: 33.33%;
+    padding: 10px 20px 10px 0px;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom > div {
+    flex-basis: 33.3%;
+    flex-grow: 0;
+    padding-right: 30px;
+    padding-bottom: 0px !important;
+  }
+  .bottom > div > .card {
+    height: 100% !important;
+  }
+  footer {
+    width: 100%;
+  }
+  .newsletter > div:first-child {
+    padding-right: 100px;
+  }
+  .newsletter {
+    padding: 30px 30px 30px 10px;
+  }
+  .newsletter > div {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  .instagram-promo {
+    background-size: cover;
   }
 }
