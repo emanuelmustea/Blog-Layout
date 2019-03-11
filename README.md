@@ -2,7 +2,7 @@
 
 Second Project
 
-## I updated all images and fonts
+### I updated all images and fonts
 
 Icon fonts are imported from iconmoon
 Google fonts are: Nunito, Gentium Book Basic
