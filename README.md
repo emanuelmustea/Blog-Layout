@@ -1,6 +1,6 @@
 # Blog-Layout
 
-project no.2
+Seconds Project
 
 ## I updated all images and fonts
 
